@@ -32,7 +32,7 @@
 
 | `AUTH_ID` | `AUTH_SOURCE` | `EMAIL` | `NAME` | `PIC_URL` |
 | --- | --- | --- | --- | --- |
-| `123` | `FB` | `jon@gmail.com` | `Jon` | `http://...` |
+| `123` | `FACEBOOK` | `jon@gmail.com` | `Jon` | `http://...` |
 
 
 @snapend
@@ -50,7 +50,7 @@ p_apex_post_auth(
   p_auth_id => apex_json.get_varchar2(p_path=>'id'),
   p_email => apex_json.get_varchar2(p_path=>'email'),
   p_full_name => apex_json.get_varchar2(p_path=>'name'),
-  p_picture_url => apex_string.format(****'//graph.facebook.com/%0/picture', apex_json.get_varchar2(p_path=>'id'))
+  p_picture_url => apex_string.format('//graph.facebook.com/%0/picture', apex_json.get_varchar2(p_path=>'id'))
 );
 
 ```

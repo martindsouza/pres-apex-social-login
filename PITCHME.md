@@ -86,6 +86,17 @@ Note:
 @snapend
 
 
+--- 
+
+@snap[north span-100]
+## More to Come
+@snapend
+
+
+@snap[midpoint span-100]
+*Code for this demo will be posted soon on Github with full writeup*
+@snapend
+
 ---
 @snap[north span-100]
 ## Insum Insider
