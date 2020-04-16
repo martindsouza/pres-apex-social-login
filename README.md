@@ -4,6 +4,10 @@ Slides: https://gitpitch.com/martindsouza/pres-apex-social-login/master
 
 [Demos](demo) 
 
+## Presented At
+
+- [APEX@Home 2020](http://apexatho.me)
+
 ## Gitpitch
 
 [Docs](https://gitpitch.com/docs/)

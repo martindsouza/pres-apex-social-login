@@ -16,7 +16,7 @@
 
 
 @snap[south]
-[TODO](TODO)
+[bit.ly/orclapex-social-login](https://bit.ly/orclapex-social-login)
 @snapend
 
 

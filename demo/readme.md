@@ -2,22 +2,29 @@
 
 Create a Facebook App & "Register" for FB Login
 
+- Go to [developers.facebook.com](https://developers.facebook.com/)
+  - My Apps > Create App
+
 - Create and Register App
   - Settings > Basic
-    - *Copy these for later*
+    - *Copy and save these for later*
     - AppID: Client ID
     - App Secret: Client Secret
     - App Domains: Put domain name (not URL) of the domains that can access your app
       - Ex: apex.oracle.com and apexatho.me
+      - `https://cwbhuqhizxythyu-atp01.adb.ca-toronto-1.oraclecloudapps.com`
 
 
-- Register "Product" for your app
+- Register "Product (Facebook Login)" for your app
   - This is what will give you login access
   - Products > Facebook Login
     - WWW
-    - Site URL: https://apexatho.me/pls/apex/f?p=apexathome
+    - Site URL: 
+      - https://apexatho.me/pls/apex/f?p=apexathome
+      - `https://cwbhuqhizxythyu-atp01.adb.ca-toronto-1.oraclecloudapps.com/ords/f?p=101`
     - Settings
       - `<DOMAIN>/ords/apex_authentication.callback`
+      - `https://cwbhuqhizxythyu-atp01.adb.ca-toronto-1.oraclecloudapps.com/ords/apex_authentication.callback`
       - `https://apexatho.me/pls/apex/apex_authentication.callback`
       - `https://apex.oracle.com/pls/apex/apex_authentication.callback`
 
@@ -75,8 +82,6 @@ Create a Facebook App & "Register" for FB Login
 - Edit Facebook Authentication
   -  Switch in Session: Enabled 
      -  This allows us to have multiple Authentication schemes (More on this later)
-  - TODO:
-
 
 
 #### Google Changes
@@ -97,7 +102,7 @@ Create a Facebook App & "Register" for FB Login
   - Behavior
     - Action: Redirect to URL
     - Target: `f?p=&APP_ID.:1:&APP_SESSION.:APEX_AUTHENTICATION=Facebook`
-      - Note can do this manually but the key thing is that the `Request` = `APEX_AUTHENTICATION=**Facebook`
+      - Note can do this manually but the key thing is that the `Request` = `APEX_AUTHENTICATION=Facebook`
 
 *Optional: Disable other login button/process*
 
@@ -106,28 +111,27 @@ Create a Facebook App & "Register" for FB Login
 
 
 
--
 
+## Store the Data
 
-What now? I don't have any of the additional profile information, email, etc...
+We just have the username but want additional information
 
-What's happeneing?
+### What's happening?
 
-TODO: Slide:
-- APEX > Facebook
-- Facebook: Login 
-- Facebook > APEX
-  - Pass / Fail
-  - Pass: Will send a JSON object will all the user's information that you need.
-    - This is stored in the `apex_json` package variables for the duration of the post-authentication. Need to capture it.
+- Facebook sending back a JSON payload
+- The JSON object is temporarily stored "in" the `apex_json` package
+  - Only available during post-authorization
+- Up to you to extract
 
-
-
-TODO: show a dummy table of what we're going to store
-
+### Demo
 
 - Create `G_USER_ID`
 
 Post Auth: `pkg_apex.p_apex_post_auth_facebook`
-   - Highlight what we're doing
+  - Highlight what we're doing
  
+
+Show in Report (need to do in Safari)
+
+
+<img src="//graph.facebook.com/#AUTH_ID#/picture">

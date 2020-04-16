@@ -8,7 +8,7 @@
 
 @snap[north span-100]
 ## OAuth
-*High level overview*
+*Simplified overview*
 @snapend
 
 
@@ -37,3 +37,6 @@ Majority of effort:
 - Storing @fab[facebook] data
 
 @snapend
+
+
+
