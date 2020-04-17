@@ -79,10 +79,10 @@ Note:
 
 
 @snap[midpoint span-100]
-- Once you know what to do, easy
-- "Difficulties" 
-  - OAuth Provider Config
-  - Returned Data
+- Once you know what to do, it's easy
+- *Difficulties* 
+  - OAuth provider config
+  - Processing returned data
 @snapend
 
 
@@ -95,20 +95,6 @@ Note:
 
 @snap[midpoint span-100]
 *Code for this demo will be posted soon on Github with full writeup*
-@snapend
-
----
-@snap[north span-100]
-## Insum Insider
-@snapend
-
-@snap[midpoint span-100]
-![height=250px](assets/img/insum-insider-promo.png)
-@snapend
-
-
-@snap[south span-100]
-*Jorge & Martin: Dev Tools Apr 23 - 2pm EDT*
 @snapend
 
 

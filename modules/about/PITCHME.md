@@ -28,7 +28,8 @@
 @snapend
 
 @snap[midpoint span-100]
-[@img[](assets/img/logo-insum.png)](https://www.insum.ca)
+<!-- [@img[](assets/img/logo-insum.png)](https://www.insum.ca) -->
+[@img[height=350px](assets/img/insum-insider-promo.png)](https://www.insuminsider.com/)
 @snapend
 
 <!-- [![Insum Logo](assets/img/logo-insum.png)](https://www.insum.ca) -->

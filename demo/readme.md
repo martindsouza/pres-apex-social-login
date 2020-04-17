@@ -79,6 +79,11 @@ Create a Facebook App & "Register" for FB Login
 
 
 
+https://developers.facebook.com/docs/facebook-login/permissions
+
+
+
+
 - Edit Facebook Authentication
   -  Switch in Session: Enabled 
      -  This allows us to have multiple Authentication schemes (More on this later)
