@@ -1,55 +1,40 @@
-@snap[north]
+[drop=top]
 # `<me>`
-@snapend
 
 
+[drop=center]
 @ul[no-list-style](false)
-
 - @fa[code] Oracle / APEX ~ 15 years
 - @fa[book] Author of several [books](http://www.talkapex.com/p/books.html)
-- @fa[briefcase] Director of Innovation at [Insum](http://www.insum.ca)
-  
-@ulend
+@ul
 
 
-@snap[south-west]
+
+
+[drop=bottomleft]
 [@img[](assets/img/logo-oracle-aced.png)](https://www.oracle.com/technetwork/community/oracle-ace/index.html)
-@snapend
 
-@snap[south-east]
+[drop=bottomright]
 [@img[](assets/img/logo-oracle-gba.png)](https://developer.oracle.com/ambassador/)
-@snapend
 
 
 ---
 
-@snap[north]
+[drop=top]
 ## `<me/work>`
-@snapend
 
-@snap[midpoint span-100]
-<!-- [@img[](assets/img/logo-insum.png)](https://www.insum.ca) -->
-[@img[height=350px](assets/img/insum-insider-promo.png)](https://www.insuminsider.com/)
-@snapend
-
-<!-- [![Insum Logo](assets/img/logo-insum.png)](https://www.insum.ca) -->
-
-Note:
-- NA largest APEX consulting firm
-- Offices in Canada, US, and now Peru
-
+[drop=center]
+*More to come in January*
 ---
 
-@snap[north]
+[drop=top]
 ## `<me/opensource>`
-@snapend
 
-@snap[midpoint span-100]
 
+[drop=center]
 - Founder [OraOpenSource](https://github.com/OraOpenSource)
 - [Logger](https://github.com/OraOpenSource/Logger)
 - [OOS Utils](http://github.com/oraopensource/oos-utils)
-@snapend
 
 Note:
 - Been involved with OS for over 5 years.<br>

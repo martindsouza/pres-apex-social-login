@@ -1,23 +1,19 @@
 
-@snap[north span-100]
+[drop=top]
 ## Martin Giffy D'Souza
-@snapend
 
 
+[drop=center]
 @ul[no-list-style](false)
-
 - @fab[twitter] [@martindsouza](https://twitter.com/martindsouza)
 - @fa[rss] [talkapex.com](http://www.talkapex.com)
 - @fab[github] [martindsouza](https://github.com/martindsouza)
-- @far[envelope] [mdsouza@insum.ca](mailto:mdsouza@insum.ca)
-- @far[building] [Insum Solutions](http://www.insum.ca)
-
-@ulend
+- @far[envelope] [martin@clarifit.com](mailto:martin@clarifit.com)
+@ul
 
 
-@snap[south]
+[drop=bottom]
 [bit.ly/orclapex-social-login](https://bit.ly/orclapex-social-login)
-@snapend
 
 
 

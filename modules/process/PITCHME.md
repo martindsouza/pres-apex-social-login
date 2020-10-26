@@ -1,42 +1,34 @@
 ---?color=black
 
-@snap[midpoint span-100]
+[drop=center]
 # The Process
-@snapend
 
 ---
 
-@snap[north span-100]
+[drop=top]
 ## OAuth
+
+
 *Simplified overview*
-@snapend
 
-
-@snap[midpoint span-100]
-
+[drop=center]
 @ul[no-list-style](false)
 - APEX @fa[arrow-right] @fab[facebook] 
 - @fab[facebook]: User accepts Login
 - @fab[facebook] @fa[arrow-right] APEX
-@ulend
-
-@snapend
+@ul
 
 
 ---
 
-@snap[north span-100]
+[drop=top]
 ## Dev Effort
-@snapend
 
 
-@snap[midpoint span-100]
-
+[drag=100 50, drop=0 30]
 Majority of effort:
 - @fab[facebook] setup
-- Storing @fab[facebook] data
-
-@snapend
+- Storing @fab[facebook] data in Oracle
 
 
 

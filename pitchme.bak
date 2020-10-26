@@ -1,57 +1,58 @@
-[drag=80 50, drop=center]
 ## Social Login
 ### while social distancing
 
-[drag=60 20, drop=bottom]
 
 Martin Giffy D'Souza
 [bit.ly/orclapex-social-login](https://bit.ly/orclapex-social-login)
 [@fab[github] Code](https://github.com/martindsouza/pres-apex-social-login)
 
+Note:
 
----
-[drag=100, drop=0, bg=assets/img/soccer-net.jpg, opacity=0.5]
 
-[drop=top]
+---?image=assets/img/soccer-net.jpg&size=cover&opacity=50
+
+@snap[north]
 # Goal
+@snapend
 
-[drag=50 10, drop=50 50 true true]
+@snap[midpoint text-15 span-100]
 Enable Social Logins
+@css[text-05](*specifically Facebook*)
+@snapend
+
 
 Note:
-- Social Login being Facebook and Google
-- Note just "personal" accounts. Also Office 365 Corp Accounts etc
-- Familiar with what is actually happening
 
 ---
 
-[drop=top]
-# Outline
 
-[drag=100 30, drop=center]
+@snap[north]
+# Outline
+@snapend
+
+
+@ul[](false)
 - Intro
 - The Process
 - Demo
 - Wrap up
+@ulend
 
 
 ---
 
 @fa[question-circle fa-6x]
 
----
-
-[drag=100, drop=0, bg=assets/img/map-calgary.png, opacity=0.9]
-
+---?image=assets/img/map-calgary.png&size=cover&opacity=90
 
 
 ---?include=modules/about/PITCHME.md
 
-
 ---
 
-[drop=center]
+@snap[midpoint span-100]
 # Why Do It?
+@snapend
 
 
 Note:
@@ -64,19 +65,34 @@ Note:
 ---?include=modules/demo/PITCHME.md
 
 ---?color=black
+
 # Wrapup
 
 --- 
 
-[drop=top]
+@snap[north span-100]
 ## Thoughts
+@snapend
 
 
-[drop=center]
+@snap[midpoint span-100]
 - Once you know what to do, it's easy
 - *Difficulties* 
   - OAuth provider config
   - Processing returned data
+@snapend
+
+
+--- 
+
+@snap[north span-100]
+## More to Come
+@snapend
+
+
+@snap[midpoint span-100]
+*Code for this demo will be posted soon on Github with full writeup*
+@snapend
 
 
 ---?include=modules/contact/PITCHME.md

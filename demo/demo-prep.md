@@ -1,5 +1,5 @@
 - Go to developers.facebook.com and delete any demo apps
-- In APEX drop any Web Credentials for demoe
+- In APEX drop any Web Credentials for demo in Workspace
 
 - Create a new Demo app
 - Create `G_USER_ID`
