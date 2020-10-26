@@ -37,6 +37,9 @@ as
     logger.append_param(l_params, 'p_picture_url', p_picture_url);
     logger.log('START', l_scope, null, l_params);
 
+    -- Demo to show all the avaialble attributes from OAuth
+    p_apex_post_auth_debug;
+
     select u.user_id
     into l_user_id
     from dual
@@ -129,12 +132,12 @@ as
       l_key := apex_json.g_values.next(l_key);
     end loop;
 
-  --  for key IN INDICES apex_json.g_values loop
-  --    logger.log('Looping', l_scope);
-  ----    logger.log('i: ' || i, l_scope);
-  ----    logger.log('kind: ' || apex_json.g_values(i).kind);
-  --
+  -- logger.log('Looping', l_scope);
+  --  for key in indices apex_json.g_values loop
+  --    logger.log('i: ' || i, l_scope);
+  --    logger.log('kind: ' || apex_json.g_values(i).kind);
   --  end loop;
+
   exception
     when others then
       logger.log_error('Unhandled Exception', l_scope);

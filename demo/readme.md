@@ -9,7 +9,9 @@ Create a Facebook App & "Register" for FB Login
   - Settings > Basic
     - *Copy and save these for later*
     - AppID: Client ID
+      - 700095124197814
     - App Secret: Client Secret
+      - 750f51f9bf861fa6f87463e464279d30
     - App Domains: Put domain name (not URL) of the domains that can access your app
       - Ex: apex.oracle.com and apexatho.me
       - `https://cwbhuqhizxythyu-atp01.adb.ca-toronto-1.oraclecloudapps.com`

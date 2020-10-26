@@ -20,12 +20,6 @@
 
 ---
 
-[drop=top]
-## `<me/work>`
-
-[drop=center]
-*More to come in January*
----
 
 [drop=top]
 ## `<me/opensource>`

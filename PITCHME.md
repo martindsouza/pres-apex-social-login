@@ -78,5 +78,11 @@ Note:
   - OAuth provider config
   - Processing returned data
 
+---
+[drop=left, bg=assets/img/mous-1.jpeg]
+
+[drop=right, bg=assets/img/mous-2.jpeg]
+
+
 
 ---?include=modules/contact/PITCHME.md
