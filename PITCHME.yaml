@@ -18,6 +18,9 @@ theme-code       : [ "Fira Code" ]
 theme-controls   : [ "#484848" ]
 theme-margins    : [ "0", "15px" ]
 
+# Required for 4.0
+gitpitch : 4.0
+
 #
 # Code Highlight Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
